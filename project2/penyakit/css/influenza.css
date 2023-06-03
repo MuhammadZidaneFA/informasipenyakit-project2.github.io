@@ -1,0 +1,155 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    height: 1000px;
+    background-color: #FEFEFE;
+}
+.navbar {
+    transition: all 0.3s ease;
+    color: black;
+}
+.navbar ul li {
+    color: black;
+}
+.navbar.scrolling-active {
+    background-color: #198754;
+    padding: 15px 0 15px 0;
+    color: white;
+}
+.navbar i:hover {
+    color: #9FA6B2;
+    cursor: pointer;
+}
+.navbar i {
+    color: white;
+}
+
+/*.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("../../assets/img/horo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.hero h1 {
+    --animate-delay: 0.7s;
+}
+.hero p {
+    --animate-delay: 1.5s;
+}
+.hero button {
+    --animate-delay: 1.7s;
+}
+
+.about .row .col:nth-child(1) {
+    background-color: #222;
+}
+
+.projects {
+    padding: 100px 0 100px 0;
+}
+.projects .abc {
+    height: 380px;
+    text-align: center;
+}
+.projects img {
+    height: 250px;
+}
+
+.services img {
+    width: 250px;
+    height: 400px;
+}
+
+.services h5 {
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.services i {
+    color: green;
+    font-size: 30px;
+}*/
+
+.isi {
+    /*border: 1px solid red;*/
+    background-color: #f6f6f6;
+    height: auto;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
+
+.isi .container p {
+    margin: 30px;
+}
+
+.isi .container h3 {
+    padding-left: 20px;
+}
+
+.isi .container ul li {
+    margin-left: 15px;
+}
+
+.container .data img{
+  width: 260px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.container .data {
+    border: 1px solid rgb(177, 177, 177);
+    float: right;
+    width: 300px;
+    padding: 10px;
+}
+
+.container .data .a {
+    text-align: center;
+}
+
+.container .data h5{
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+}
+
+.container .data p {
+    margin: 10px;
+}
+
+.faq {
+    padding-top: 100px;
+}
+.faq .accordion {
+    --bs-accordion-bg: #e9edc9;
+}
+.faq .accordion .accordion-button:focus{
+    box-shadow: none;
+}
+
+.footer {
+    min-height: 60vh;
+    background-color: #15181f;
+    margin-top: 150px;
+}
+.footer .copyright {
+    padding-top: 100px;
+}
+
+@media screen and (max-widht:1200px){
+    .services img {
+        width: 220px;
+    }
+    
+}
+@media screen and (max-widht: 475px) {
+    .services h5 {font-size: 16px;}
+}
+
